@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#ff0000 50%, #00ff00 50%);
+}
+::selection{
+    color: #fff;
+    background: #00ff00;
+}
+button{
+    border: none;
+    outline: none;
+    font-size: 50px;
+    color: #010720;
+    padding: 23px 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(171, 170, 170, 0.479);
+}
